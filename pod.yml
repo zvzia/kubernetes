@@ -1,0 +1,13 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+  name: hello-kubernetes-3
+  labels:
+    myLabel: kubamater-hello-kubernetes
+
+spec:
+  containers:
+    - name: web
+      image: kubamater/hello-kubernetes
